@@ -1,5 +1,6 @@
 function displayLocalStorageCart() {
     const cart = getCart();
+    console.log(cart)
     for (const pd of cart) {
         displayProducts(pd.name, pd.quantity, pd.price);
     }
